@@ -4,6 +4,7 @@ import Hero from './components/Hero.jsx';
 import Analytics from './components/Analytics.jsx';
 import Newletter from './components/Newletter.jsx';
 import Cards from './components/Cards.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Hero />
       <Analytics /> 
       <Newletter /> 
-      <Cards />    
+      <Cards />
+      <Footer />      
     </div>
   );
 }
