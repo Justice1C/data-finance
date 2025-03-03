@@ -13,11 +13,11 @@ const handleNav = () => {
     <div className='flex justify-between item-center h-24 max-w-[1240px] mx-auto text-white px-4 mt-5'>
       <h1 className='w-full text-3xl font-bold text-[#00df9a]'>React.</h1>
       <ul className='hidden md:flex'> 
-        <li className='p-4'>Home</li>
-        <li className='p-4'>Company</li>
-        <li className='p-4'>Resource</li>
-        <li className='p-4'>About</li>
-        <li className='p-4'>Contact</li>
+        <li className='px-4 py-2'>Home</li>
+        <li className='px-4 py-2'>Company</li>
+        <li className='px-4 py-2'>Resource</li>
+        <li className='px-4 py-2'>About</li>
+        <li className='px-4 py-2'>Contact</li>
       </ul>
       <div onClick={handleNav} className=' block md:hidden'>
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
